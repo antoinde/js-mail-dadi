@@ -11,7 +11,7 @@ button.addEventListener('click', function(){
     //genera valori random dei due dadi
     mioDado=Math.floor(Math.random() * 6) + 1; //genera valori random tra 1 e 6
     pcDado=Math.floor(Math.random() * 6) + 1;
-    console.log(`mio dado: ${mioDado} pc dado: ${pcDado}`);
+    console.log(`Io: ${mioDado}         PC: ${pcDado}`);
 
     //se il mio dado > pc dado allora stampa "Complimenti, hai vinto! =D "
     if(mioDado>pcDado){
